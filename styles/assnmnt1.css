@@ -28,6 +28,11 @@
  }
  /* main styles */
 
+ main{
+    max-width: 900px;
+    align-content: center;
+    
+ }
  .color2{color: rgba(19, 19, 33, 0.70);}
  .btn-2{
     height: 30px;
@@ -37,7 +42,11 @@
     display: flex;
     justify-content: space-between;
  }
- section .middle{
-    width: 200px;
-    box-sizing: content-box;
+ .section-title{
+   text-align: center;
  }
+iframe{
+text-align: center;
+align-items: center;
+align-content: center;
+}
