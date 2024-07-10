@@ -1,21 +1,30 @@
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight:bolder;
+    /* font-weight: bolder; */
     font-style: normal;
+  }
+  body{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
   }
   /* header styles */
   header{
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     text-align: center;
     align-items: center;
+    justify-content: center;
   }
   .banner-content{
     align-items: center;
     width: 900px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
  .btn-1{
     background-color: rgba(13, 19, 33, 1.00);
@@ -45,8 +54,30 @@
  .section-title{
    text-align: center;
  }
+ .description{
+   font-weight:200px;
+   color: rgba(19, 19, 33, 0.70);
+ }
 iframe{
 text-align: center;
 align-items: center;
 align-content: center;
+}
+/* My current target styles */
+.languages{
+   display: flex;
+   gap: 25px;
+}
+.language{
+   padding: 30px;
+   border-radius: 15px;
+   text-align: left;
+}
+.HTML{
+   background-color: rgba(255, 76, 30, 0.16);}
+.CSS{
+   background-color: rgba(0, 76, 232, 0.09);
+}
+.JavaScript{
+   background-color: rgba(255, 223, 0, 0.09)
 }
